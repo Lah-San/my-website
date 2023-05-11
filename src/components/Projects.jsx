@@ -161,11 +161,11 @@ const Section = styled.div`
   margin: 0rem 10rem 0rem 10rem;
 
   @media only screen and (max-width: 1200px) {
-    margin: 0rem 5rem 0rem 5rem;
+    margin: 0rem 5rem 1rem 5rem;
   }
 
   @media only screen and (max-width: 768px) {
-    margin: 0rem 1rem 0rem 1rem;
+    margin: 0rem 1rem 3rem 1rem;
   }
 `;
 

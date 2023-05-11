@@ -316,7 +316,7 @@ const ImageBetween = styled.img`
   -webkit-filter: drop-shadow(5px 5px 5px #40e2ff);
   filter: drop-shadow(5px 5px 5px #000000);
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  animation: animate 5s ease-in-out infinite;
+  animation: animate 15s ease-in-out infinite;
   transition: all 1s ease-in-out;
 
   @keyframes animate {
