@@ -10,11 +10,12 @@ import NavBar from "./components/NavBar";
 const Container = styled.div`
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  overflow: hidden;
   color: #000000;
   background: url("./background/background_blue.png") no-repeat center fixed;
   background-size: cover;
+  -webkit-overflow-scrolling: touch;
 `;
 
 function App() {

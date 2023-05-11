@@ -15,8 +15,6 @@ function Contact({ id }) {
   const [loading, setLoading] = useState(false);
   const pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
 
-  console.log(import.meta.env.REACT_APP_SERVICE_ID)
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
