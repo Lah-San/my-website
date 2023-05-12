@@ -11,7 +11,6 @@ const Container = styled.div`
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   overflow: hidden;
-  overflow-x: scroll;
   color: #000000;
   background: url("./background/background_blue.png") no-repeat center fixed;
   background-size: cover;
