@@ -6,7 +6,7 @@ This project is a personal website that showcases my programming knowledge, pers
 
 To run this project, you need to have Node.js and npm installed on your machine. Then, follow these steps:
 
-- Clone this repo to your local machine using `git clone https://github.com/your-username/my-website.git`.
+- Clone this repo to your local machine using `git clone https://github.com/Lah-San/my-website.git`.
 - Navigate to the project folder using `cd my-website`.
 - Install the dependencies using `npm install`.
 - Create a `.env` file in the root folder and add the following variables:
@@ -34,10 +34,6 @@ This website has the following features:
 ## Contribution and Issues
 
 If you want to contribute to this project or report any issues, you can use the GitHub issues or pull requests features. Please follow the code of conduct and the contribution guidelines before making any changes.
-
-## Authors and Acknowledgements
-
-This project is created and maintained by me, your name. I would like to thank everyone who helped me along the way, especially my mentors, friends, and family.
 
 ## License
 
