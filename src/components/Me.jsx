@@ -2,16 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import Typed from "typed.js";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { OrbitControls, MeshDistortMaterial, Sphere } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
 import Lottie from "lottie-web";
-import {
-  EffectComposer,
-  Bloom,
-  DepthOfField,
-  Noise,
-  Vignette,
-} from "@react-three/postprocessing";
 import { Fade } from "react-reveal";
 
 function Me({ id }) {
@@ -72,7 +63,7 @@ function Me({ id }) {
         <Container>
           <Left>
             <Title>Lahiru Sandun</Title>
-            <ImageBetween src="./images/about_me.png" />
+            <ImageBetween src="./images/about_me.webp" alt="about_me" />
             <SubHeading>
               <p>I'm a </p>
               <Typer>
@@ -103,7 +94,7 @@ function Me({ id }) {
             </Social>
           </Left>
           <Right>
-            <Image src="./images/about_me.png" />
+            <Image src="./images/about_me.webp" alt="about_me_1" />
           </Right>
         </Container>
       </Fade>
@@ -353,7 +344,7 @@ const Image = styled.img`
   position: absolute;
   inset: 0rem 40px 0px;
   transform: box-shadow(1px 1px 1px #40e2ff);
-  background: url("./background/background_blue.png") no-repeat center fixed; 
+  background: url("./background/background_blue.webp") no-repeat center fixed;
   border-radius: 16px;
   box-shadow: inset 0 4px 40px rgba(0, 94, 244, 0.198);
   backdrop-filter: blur(10px);

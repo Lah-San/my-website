@@ -10,14 +10,14 @@ function Projects({ id }) {
       <Fade>
         <ProjectTitle>Projects</ProjectTitle>
       </Fade>
-    
+
       <Container>
         <OneLeft>
           <Fade left distance="20%">
             <Title>Airbnb Clone</Title>
             <Fade left distance="20%">
               <ImageContainerBetween>
-                <Image src="./images/Airbooknc.png" />
+                <Image src="./images/Airbooknc.webp" alt="Airbooknc" />
               </ImageContainerBetween>
             </Fade>
             <Desc>
@@ -49,17 +49,17 @@ function Projects({ id }) {
         <OneRight>
           <Fade left distance="20%">
             <ImageContainer>
-              <Image src="./images/Airbooknc.png" />
+              <Image src="./images/Airbooknc.webp" />
             </ImageContainer>
           </Fade>
         </OneRight>
       </Container>
-    
+
       <Container>
         <TwoLeft>
           <Fade right distance="20%">
             <ImageContainer>
-              <Image src="./images/Recipes.png" />
+              <Image src="./images/Recipes.webp" alt="Recipes" />
             </ImageContainer>
           </Fade>
         </TwoLeft>
@@ -68,7 +68,7 @@ function Projects({ id }) {
             <Title>FindMyRecipes</Title>
             <Fade right distance="20%">
               <ImageContainerBetween>
-                <Image src="./images/Recipes.png" />
+                <Image src="./images/Recipes.webp" />
               </ImageContainerBetween>
             </Fade>
             <Desc>
@@ -98,14 +98,14 @@ function Projects({ id }) {
           </Fade>
         </TwoRight>
       </Container>
-    
+
       <Container>
         <OneLeft>
           <Fade left distance="20%">
             <Title>Promptio</Title>
             <Fade left distance="20%">
               <ImageContainerBetween>
-                <Image src="./images/Promptio.png" />
+                <Image src="./images/Promptio.webp" />
               </ImageContainerBetween>
             </Fade>
             <Desc>
@@ -134,11 +134,11 @@ function Projects({ id }) {
         <OneRight>
           <Fade left distance="20%">
             <ImageContainer>
-              <Image src="./images/Promptio.png" />
+              <Image src="./images/Promptio.webp" alt="Promptio" />
             </ImageContainer>
           </Fade>
         </OneRight>
-      </Container>  
+      </Container>
     </Section>
   );
 }

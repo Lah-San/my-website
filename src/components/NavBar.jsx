@@ -34,7 +34,7 @@ function NavBar() {
     <Section className="navbar" style={{ top: showNav ? 0 : "-80px" }}>
       <Container>
         <Links>
-          <Logo onClick={() => handleItemClick("home")} src="./logo/logo.png" />
+          <Logo onClick={() => handleItemClick("home")} src="./logo/logo.webp" alt="logo" />
           <List>
             <ListItem onClick={() => handleItemClick("home")}>Home</ListItem>
             <ListItem onClick={() => handleItemClick("aboutme")}>
