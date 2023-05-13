@@ -12,7 +12,7 @@ const Container = styled.div`
   scroll-behavior: smooth;
   overflow: hidden;
   color: #000000;
-  background: url("./background/background_blue.png") no-repeat center fixed;
+  background: url("./background/background_blue.webp") no-repeat center fixed;
   background-size: cover;
   -webkit-overflow-scrolling: touch;
 `;
