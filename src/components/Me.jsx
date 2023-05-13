@@ -272,6 +272,7 @@ const Github = styled.div`
 const Button = styled.button`
   font-weight: 500;
   cursor: pointer;
+  color: black;
   width: 250px;
   padding: 0px 0px 0px 0px;
   border: none;
@@ -288,11 +289,13 @@ const Button = styled.button`
   border: 1px solid rgba(0, 0, 0, 0.926);
 
   :hover {
+    color: black;
     border: 1px solid #000000;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   }
 
   :active {
+    color: black;
     transform: scale(1.02);
   }
 `;

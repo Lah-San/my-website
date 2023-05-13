@@ -146,6 +146,12 @@ const Title = styled.h1`
   font-size: 50px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
+  margin-bottom: 3rem;
+  
+  @media only screen and (max-width: 630px) {
+    margin-bottom: 2rem;
+
+  }
 `;
 
 const SubHeading = styled.p`
@@ -155,10 +161,6 @@ const SubHeading = styled.p`
   padding: 15px 0px;
   text-align: center;
   margin-bottom: 25px;
-
-  @media only screen and (max-width: 615px) {
-    font-size: 18px;
-  }
 
   @media only screen and (max-width: 630px) {
     font-size: 16px;
@@ -248,6 +250,7 @@ const DescInput = styled.textarea`
 const Send = styled.button`
   font-weight: 500;
   font-size: 19px;
+  color: black;
   cursor: pointer;
   width: 200px;
   margin: 10px;
@@ -269,6 +272,7 @@ const Send = styled.button`
   ::after {
     content: "";
     position: absolute;
+    color: black;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -285,6 +289,7 @@ const Send = styled.button`
   :before {
     content: "";
     font-size: 100px;
+    color: black;
     position: absolute;
     bottom: 0;
     left: 0;
