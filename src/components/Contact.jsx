@@ -105,12 +105,18 @@ function Contact({ id }) {
         </form>
         {loading && <div>Loading...</div>}
         {success === true && (
-          <Success>
-            Thank you! Your message has been sent. I will get back to you as
-            soon as possible 😊.
-          </Success>
+          <Fade bottom>
+            <Success>
+              Thank you! Your message has been sent. I will get back to you as
+              soon as possible 😊.
+            </Success>
+          </Fade>
         )}
-        {success === false && <Error> Email was not sent. </Error>}
+        {success === false && (
+          <Fade bottom>
+            <Error> Email was not sent. </Error>
+          </Fade>
+        )}
       </Container>
     </Section>
   );
@@ -121,11 +127,10 @@ const Section = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 0rem;
+  text-align: center;
 `;
 
 const Container = styled.div`
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -321,7 +326,7 @@ const Send = styled.button`
   }  */
 `;
 
-const Success = styled.span`
+const Success = styled.div`
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
@@ -329,9 +334,11 @@ const Success = styled.span`
   padding: 5px;
   border: none;
   border-radius: 5px;
+  text-align: center;
+  margin-bottom: 2rem;
 `;
 
-const Error = styled.span`
+const Error = styled.div`
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
@@ -339,6 +346,8 @@ const Error = styled.span`
   padding: 5px;
   border: none;
   border-radius: 5px;
+  text-align: center;
+  margin-bottom: 2rem;
 `;
 
 export default Contact;
