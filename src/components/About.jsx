@@ -26,7 +26,7 @@ const About = ({ id }) => {
     <Section id={id}>
       <Container >
         <Left>
-          <Fade right distance="20%">
+          <Fade right distance="5%">
             <Left>
               {/* Add the lottie container as a child of the Left component */}
               <div id="lottie" ref={lottieContainer}></div>
@@ -37,7 +37,7 @@ const About = ({ id }) => {
           <Fade>
             <Title>About Me</Title>
           </Fade>
-          <Fade left distance="20%">
+          <Fade left distance="5%">
             <Desc>
               I'm Lahiru Sandun, a dedicated full-stack web developer from Sri
               Lanka. My goal is to design and develop visually stunning and

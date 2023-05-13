@@ -10,145 +10,135 @@ function Projects({ id }) {
       <Fade>
         <ProjectTitle>Projects</ProjectTitle>
       </Fade>
-      <Slide left distance="30%">
-        <Container>
-          <OneLeft>
+    
+      <Container>
+        <OneLeft>
+          <Fade left distance="20%">
+            <Title>Airbnb Clone</Title>
             <Fade left distance="20%">
-              <Title>Airbnb Clone</Title>
-              <Fade left distance="20%">
-                <ImageContainerBetween>
-                  <Image src="./images/Airbooknc.png" />
-                </ImageContainerBetween>
-              </Fade>
-              <Desc>
-                "Airbooknc" is a user-friendly online platform that connects
-                travelers with unique accommodations from around the world. Book
-                your next adventure with ease, or list your property and
-                showcase it to a global audience.
-              </Desc>
-              *It might take some time to load!
-              <Links>
-                <Link
-                  href="https://github.com/Lah-San/booking-app"
-                  target="_blank"
-                >
-                  <SubTitle>Code</SubTitle>
-                  <Icon>
-                    <BsGithub />
-                  </Icon>
-                </Link>
-                <Link href="https://airbooknc.vercel.app/" target="_black">
-                  <SubTitle>Live Demo</SubTitle>
-                  <Icon href="https://airbooknc.vercel.app/" target="_black">
-                    <TbExternalLink />
-                  </Icon>
-                </Link>
-              </Links>
-            </Fade>
-          </OneLeft>
-          <OneRight>
-            <Fade right distance="20%">
-              <ImageContainer>
+              <ImageContainerBetween>
                 <Image src="./images/Airbooknc.png" />
-              </ImageContainer>
+              </ImageContainerBetween>
             </Fade>
-          </OneRight>
-        </Container>
-      </Slide>
-      <Slide right distance="30%">
-        <Container>
-          <TwoLeft>
-            <Fade left distance="20%">
-              <ImageContainer>
+            <Desc>
+              "Airbooknc" is a user-friendly online platform that connects
+              travelers with unique accommodations from around the world. Book
+              your next adventure with ease, or list your property and showcase
+              it to a global audience.
+            </Desc>
+            *It might take some time to load!
+            <Links>
+              <Link
+                href="https://github.com/Lah-San/booking-app"
+                target="_blank"
+              >
+                <SubTitle>Code</SubTitle>
+                <Icon>
+                  <BsGithub />
+                </Icon>
+              </Link>
+              <Link href="https://airbooknc.vercel.app/" target="_black">
+                <SubTitle>Live Demo</SubTitle>
+                <Icon href="https://airbooknc.vercel.app/" target="_black">
+                  <TbExternalLink />
+                </Icon>
+              </Link>
+            </Links>
+          </Fade>
+        </OneLeft>
+        <OneRight>
+          <Fade left distance="20%">
+            <ImageContainer>
+              <Image src="./images/Airbooknc.png" />
+            </ImageContainer>
+          </Fade>
+        </OneRight>
+      </Container>
+    
+      <Container>
+        <TwoLeft>
+          <Fade right distance="20%">
+            <ImageContainer>
+              <Image src="./images/Recipes.png" />
+            </ImageContainer>
+          </Fade>
+        </TwoLeft>
+        <TwoRight>
+          <Fade right distance="20%">
+            <Title>FindMyRecipes</Title>
+            <Fade right distance="20%">
+              <ImageContainerBetween>
                 <Image src="./images/Recipes.png" />
-              </ImageContainer>
+              </ImageContainerBetween>
             </Fade>
-          </TwoLeft>
-          <TwoRight>
-            <Fade right distance="20%">
-              <Title>FindMyRecipes</Title>
-              <Fade left distance="20%">
-                <ImageContainerBetween>
-                  <Image src="./images/Recipes.png" />
-                </ImageContainerBetween>
-              </Fade>
-              <Desc>
-                "FindMyRecipes" Website is an online platform that allows users
-                to find recipes from different countries, cultures. The website
-                allows the user to search recipes using keywords and provides
-                ingredients and instructions on how to prepare them.
-              </Desc>
-              *It might take some time to load!
-              <Links>
-                <Link
-                  href="https://github.com/Lah-San/recipes-web-app"
-                  target="_blank"
-                >
-                  <SubTitle>Code</SubTitle>
-                  <Icon>
-                    <BsGithub />
-                  </Icon>
-                </Link>
-                <Link href="https://findmyrecipes.vercel.app/" target="_black">
-                  <SubTitle>Live Demo</SubTitle>
-                  <Icon
-                    href="https://findmyrecipes.vercel.app/"
-                    target="_black"
-                  >
-                    <TbExternalLink />
-                  </Icon>
-                </Link>
-              </Links>
-            </Fade>
-          </TwoRight>
-        </Container>
-      </Slide>
-
-      <Slide left distance="30%">
-        <Container>
-          <OneLeft>
+            <Desc>
+              "FindMyRecipes" Website is an online platform that allows users to
+              find recipes from different countries, cultures. The website
+              allows the user to search recipes using keywords and provides
+              ingredients and instructions on how to prepare them.
+            </Desc>
+            *It might take some time to load!
+            <Links>
+              <Link
+                href="https://github.com/Lah-San/recipes-web-app"
+                target="_blank"
+              >
+                <SubTitle>Code</SubTitle>
+                <Icon>
+                  <BsGithub />
+                </Icon>
+              </Link>
+              <Link href="https://findmyrecipes.vercel.app/" target="_black">
+                <SubTitle>Live Demo</SubTitle>
+                <Icon href="https://findmyrecipes.vercel.app/" target="_black">
+                  <TbExternalLink />
+                </Icon>
+              </Link>
+            </Links>
+          </Fade>
+        </TwoRight>
+      </Container>
+    
+      <Container>
+        <OneLeft>
+          <Fade left distance="20%">
+            <Title>Promptio</Title>
             <Fade left distance="20%">
-              <Title>Promptio</Title>
-              <Fade left distance="20%">
-                <ImageContainerBetween>
-                  <Image src="./images/Promptio.png" />
-                </ImageContainerBetween>
-              </Fade>
-              <Desc>
-                "Promptio" is a platform for prompt engineering, where users can
-                share and discover prompts for various artificial intelligence
-                systems, such as Bing AI, ChatGPT, BARD and more. Users can
-                create an account to upload their prompts, or copy existing
-                prompts from others to enhance their efficiency.
-              </Desc>
-              <Links>
-                <Link
-                  href="https://github.com/Lah-San/Promptio"
-                  target="_blank"
-                >
-                  <SubTitle>Code</SubTitle>
-                  <Icon>
-                    <BsGithub />
-                  </Icon>
-                </Link>
-                <Link href="https://promptio.vercel.app/" target="_black">
-                  <SubTitle>Live Demo</SubTitle>
-                  <Icon>
-                    <TbExternalLink />
-                  </Icon>
-                </Link>
-              </Links>
-            </Fade>
-          </OneLeft>
-          <OneRight>
-            <Fade right distance="20%">
-              <ImageContainer>
+              <ImageContainerBetween>
                 <Image src="./images/Promptio.png" />
-              </ImageContainer>
+              </ImageContainerBetween>
             </Fade>
-          </OneRight>
-        </Container>
-      </Slide>
+            <Desc>
+              "Promptio" is a platform for prompt engineering, where users can
+              share and discover prompts for various artificial intelligence
+              systems, such as Bing AI, ChatGPT, BARD and more. Users can create
+              an account to upload their prompts, or copy existing prompts from
+              others to enhance their efficiency.
+            </Desc>
+            <Links>
+              <Link href="https://github.com/Lah-San/Promptio" target="_blank">
+                <SubTitle>Code</SubTitle>
+                <Icon>
+                  <BsGithub />
+                </Icon>
+              </Link>
+              <Link href="https://promptio.vercel.app/" target="_black">
+                <SubTitle>Live Demo</SubTitle>
+                <Icon>
+                  <TbExternalLink />
+                </Icon>
+              </Link>
+            </Links>
+          </Fade>
+        </OneLeft>
+        <OneRight>
+          <Fade left distance="20%">
+            <ImageContainer>
+              <Image src="./images/Promptio.png" />
+            </ImageContainer>
+          </Fade>
+        </OneRight>
+      </Container>  
     </Section>
   );
 }

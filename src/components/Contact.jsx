@@ -59,14 +59,14 @@ function Contact({ id }) {
         <Fade>
           <Title>Contact Me</Title>
         </Fade>
-        <Fade bottom distance="15%" delay={200}>
+        <Fade bottom distance="5%" delay={25}>
           <SubHeading>
             If you are interested in working with me or have any questions or
             comments, please feel free to contact me using the form below.
           </SubHeading>
         </Fade>
         <form ref={ref} onSubmit={handleSubmit}>
-          <Fade bottom distance="15%" delay={250}>
+          <Fade bottom distance="10%" delay={25}>
             <ContactBox>
               <NameInput
                 placeholder="Full Name"
@@ -321,7 +321,7 @@ const Send = styled.button`
   }  */
 `;
 
-const Success = styled.div`
+const Success = styled.span`
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
@@ -331,7 +331,7 @@ const Success = styled.div`
   border-radius: 5px;
 `;
 
-const Error = styled.div`
+const Error = styled.span`
   font-size: 18px;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
