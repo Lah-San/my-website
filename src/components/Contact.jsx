@@ -128,6 +128,7 @@ const Section = styled.div`
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 5rem;
 `;
 
 const Container = styled.div`
@@ -335,7 +336,7 @@ const Success = styled.div`
   border: none;
   border-radius: 5px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
 const Error = styled.div`
@@ -347,7 +348,7 @@ const Error = styled.div`
   border: none;
   border-radius: 5px;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 `;
 
 export default Contact;
